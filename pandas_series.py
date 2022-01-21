@@ -19,3 +19,9 @@ s1
 # d    4
 # e    5
 # dtype: int64
+
+pd.Series({'a':10,'b':20,'c':30}, index=['b','c','d'])
+# b    20.0
+# c    30.0
+# d     NaN
+# dtype: float64
